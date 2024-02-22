@@ -4,31 +4,6 @@ print("ДОМАШНЄ ЗАВДАННЯ 2\n\n")
 print("ЧАСТИНА 1 - Основи\n")
 print("Розділ 1.1 Константи\n")
 
-/*
-
- Розділ 1.1 - Константи
-
- 1 Оголосити чотири константи та задати одразу будь-які значення
- використовуючи опис нижче для кожної константи:
- - ім'я хатньої тварини (String)
- - вага (Double)
- - вік (Int)
- - чи тварина голодна (Bool)
-
- 2 Вивести результати у консоль
-
- 3 перевірте і зробіть Commit (збережіть зміни використовуючт git-клієнт)
-
- * для виводу результатів у консоль необхідно додати зарезервовані
- константи у відповідні дужки \() та помістити всередині print() нижче
-
- * наприклад:
-
-     let myPetName: String = "Any Pet Name"
-
-     print("Ім'я хатньої тварини: \(myPetName)")
-
- */
 let dogName : String = "Josefina"
 var dogWeight: Double = 10.5
 var dogAge: Int = 4
@@ -43,63 +18,32 @@ print("Хатня тварина голодна: \(isHungry)")
 
 print("\nРозділ 1.2 Змінні\n")
 
-/*
-
- Розділ 1.2 - Змінні
-
- 1 Оголосити 6 змінних із будь-якими значеннями для опису користувача
- для збeрігання наступної інформації (відповідні типи обрати самостійно):
- - ім'я користувача
- - прізвище користувача
- - вік
- - зріст
- - вагу
- - статус шлюбу (так/ні)
-
- 2 використовуючи print() вивести текст "Інформація за 2018 р."
- 3 далі вивести у консоль окремими рядками усю зазначену інформацію про користувача
- 4 нижче, використовуючи змінні, змінити:
- - значення шлюбу
- - вагу
- - вік
- 5 використовуючи print() вивести текст "Інформація за поточний рік:"
- 6 далі вивести у консоль окремими рядками усю зазначену інформацію про користувача
-
- 7 перевірте і зробіть Commit (збережіть зміни використовуючт git-клієнт)
-
- * наприклад:
-     var someUserFirstName: String = "any name"
-     var someUserAge: Int = 25
-     ...
-     print("Інформація за 2018 р.:")
-     print("Ім'я: \(someUserFirstName)")
-     print("Вік: \(someUserAge)")
-     ...
-
-     someUserAge = 29
-     ...
-     print("\nІнформація за поточний рік:")
-     print("Ім'я: \(someUserFirstName)")
-     print("Вік: \(someUserAge)")
-     ...
-
- */
+var someUserFirstName: String = "Maryna"
+var someUserLastName: String = "Zhukova"
+var someUserAge: Int = 22
+var someUserHeight: Double = 1.55
+var someUserWeight: Int = 75
+var isMarried: Bool = false
 
 print("Інформація за 2018 р.:")
-print("Ім'я: ")
-print("Прізвище: ")
-print("Вік: ")
-print("зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+print("Ім'я: \(someUserFirstName)")
+print("Прізвище: \(someUserLastName)")
+print("Вік: \(someUserAge)")
+print("зріст: \(someUserHeight)см")
+print("Вага:\(someUserWeight) кг")
+print("У шлюбі:\(isMarried) ")
+
+isMarried=true
+someUserWeight=57
+someUserAge=27
 
 print("\nІнформація за поточний рік:")
-print("Ім'я: ")
-print("Прізвище: ")
-print("Вік: ")
-print("зріст: см")
-print("Вага: кг")
-print("У шлюбі: ")
+print("Ім'я: \(someUserFirstName)")
+print("Прізвище: \(someUserLastName)")
+print("Вік: \(someUserAge)")
+print("зріст: \(someUserHeight)см")
+print("Вага:\(someUserWeight) кг")
+print("У шлюбі:\(isMarried) ")
 
 
 print("\nРозділ 1.3 Псевдоніми\n")
