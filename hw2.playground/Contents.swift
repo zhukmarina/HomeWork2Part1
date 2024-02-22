@@ -93,19 +93,7 @@ print("Температура: \(weatherInfo.1)C")
 
 print("\nРозділ 1.5 Опціонали\n")
 
-/*
-
- Розділ 1.5 - Опціонали
-
- 1 Оголосити змінну userLoggedIn типу Bool як Optional
- 2 Використовуючи print() вивести значення змінної з описом у консоль
- 3 Присвоїти будь-яке значення змінній userLoggedIn
- 4 Використовуючи print() вивести значення змінної з описом у консоль
-
- 5 перевірте і зробіть Commit (збережіть зміни використовуючт git-клієнт)
-
- */
-
-print("Користувач авторизован: ")
-
-print("Користувач авторизован: ")
+var userLoggedIn : Bool?
+print("Користувач авторизован: \(String(describing: userLoggedIn)) ")
+userLoggedIn = true
+print("Користувач авторизован: \(String(describing: userLoggedIn)) ")
